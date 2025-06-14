@@ -1,0 +1,14 @@
+@theme inline {
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+}
+
+:root {
+  --primary: var(--color-zinc-900);
+  --primary-foreground: var(--color-zinc-50);
+}
+
+.dark {
+  --primary: var(--color-zinc-200);
+  --primary-foreground: var(--color-zinc-900);
+}

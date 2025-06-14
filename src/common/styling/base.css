@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@import "./theming/accent/zinc.css";
+@import "./theming/base/zinc.css";
+@import "./theming/card/zinc.css";
+/* @import "./theming/font/next.css"; */
+@import "./theming/muted/zinc.css";
+@import "./theming/popover/zinc.css";
+@import "./theming/primary/zinc.css";
+@import "./theming/secondary/zinc.css";
+@import "./theming/sidebar/zinc.css";
+@import "./theming/chart.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer base {
+  .flex > *,
+  .inline-flex > * {
+    @apply flex-none;
+  }
+}

@@ -1,0 +1,14 @@
+@theme inline {
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+}
+
+:root {
+  --muted: var(--color-zinc-100);
+  --muted-foreground: var(--color-zinc-500);
+}
+
+.dark {
+  --muted: var(--color-zinc-800);
+  --muted-foreground: var(--color-zinc-400);
+}

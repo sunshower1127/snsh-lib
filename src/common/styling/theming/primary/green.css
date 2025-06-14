@@ -1,0 +1,14 @@
+@theme inline {
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+}
+
+:root {
+  --primary: var(--color-green-600);
+  --primary-foreground: var(--color-green-50);
+}
+
+.dark {
+  --primary: var(--color-green-400);
+  --primary-foreground: var(--color-green-950);
+}

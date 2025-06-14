@@ -1,0 +1,1 @@
+bun i @tiptap/react @tiptap/starter-kit @tiptap/extension-code-block-lowlight @tiptap-pro/extension-details @tiptap-pro/extension-details-content @tiptap-pro/extension-details-summary @tiptap-pro/extension-file-handler tiptap-extension-resize-image highlight.js lowlight

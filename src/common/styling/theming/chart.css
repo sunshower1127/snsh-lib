@@ -1,0 +1,23 @@
+@theme inline {
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+:root {
+  --chart-1: var(--color-orange-500);
+  --chart-2: var(--color-cyan-500);
+  --chart-3: var(--color-blue-600);
+  --chart-4: var(--color-lime-400);
+  --chart-5: var(--color-yellow-500);
+}
+
+.dark {
+  --chart-1: var(--color-violet-500);
+  --chart-2: var(--color-emerald-500);
+  --chart-3: var(--color-yellow-500);
+  --chart-4: var(--color-pink-500);
+  --chart-5: var(--color-orange-500);
+}

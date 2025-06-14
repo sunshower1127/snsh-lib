@@ -1,0 +1,11 @@
+{
+  "required": "This field is required",
+  "invalid_type": "Invalid type",
+  "invalid_email": "Please enter a valid email address",
+  "too_small": "Must be at least {{minimum}} characters (current: {{current}})",
+  "too_big": "Must be at most {{maximum}} characters (current: {{current}})",
+  "invalid_string": "Invalid string format",
+  "password_weak": "Password must be at least 8 characters with letters, numbers, and special characters",
+  "phone_invalid": "Please enter a valid phone number (e.g., 010-1234-5678)",
+  "age_invalid": "Age must be between 1 and 120"
+}

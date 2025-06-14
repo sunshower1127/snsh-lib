@@ -1,0 +1,11 @@
+{
+  "required": "필수 입력 항목입니다",
+  "invalid_type": "올바른 형식이 아닙니다",
+  "invalid_email": "유효한 이메일 주소를 입력하세요",
+  "too_small": "최소 {{minimum}}자 이상 입력하세요 (현재: {{current}}자)",
+  "too_big": "최대 {{maximum}}자까지 입력 가능합니다 (현재: {{current}}자)",
+  "invalid_string": "문자열 형식이 올바르지 않습니다",
+  "password_weak": "비밀번호는 8자 이상, 영문, 숫자, 특수문자를 포함해야 합니다",
+  "phone_invalid": "올바른 전화번호 형식을 입력하세요 (예: 010-1234-5678)",
+  "age_invalid": "나이는 1세 이상 120세 이하여야 합니다"
+}

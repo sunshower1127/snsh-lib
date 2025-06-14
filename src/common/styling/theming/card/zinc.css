@@ -1,0 +1,15 @@
+/* Card theming for Zinc theme */
+@theme inline {
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+}
+
+:root {
+  --card: var(--color-white);
+  --card-foreground: var(--color-zinc-900);
+}
+
+.dark {
+  --card: var(--color-zinc-900);
+  --card-foreground: var(--color-zinc-50);
+}

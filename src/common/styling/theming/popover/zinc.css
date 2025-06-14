@@ -1,0 +1,14 @@
+@theme inline {
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+}
+
+:root {
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-zinc-900);
+}
+
+.dark {
+  --popover: var(--color-zinc-900);
+  --popover-foreground: var(--color-zinc-50);
+}

@@ -1,0 +1,14 @@
+@theme inline {
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+}
+
+:root {
+  --primary: var(--color-red-600);
+  --primary-foreground: var(--color-red-50);
+}
+
+.dark {
+  --primary: var(--color-red-400);
+  --primary-foreground: var(--color-red-950);
+}

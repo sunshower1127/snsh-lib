@@ -1,0 +1,45 @@
+.responsive {
+  --item-capacity: 2;
+  --button-width: 20px;
+  --item-width: calc((100% - 2 * var(--button-width) - (var(--item-capacity) + 1) * 4px) / var(--item-capacity));
+
+  @media (min-width: 640px) {
+    --item-capacity: 3;
+    --button-width: 24px;
+  }
+  @media (min-width: 768px) {
+    --item-capacity: 4;
+    --button-width: 34px;
+  }
+  @media (min-width: 1024px) {
+    --item-capacity: 5;
+    --button-width: 44px;
+  }
+  @media (min-width: 1280px) {
+    --item-capacity: 6;
+    --button-width: 60px;
+  }
+}
+
+.scroll {
+  --scroll-0: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 1) - var(--button-width) - 4px));
+
+  --scroll-1: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 2) - var(--button-width) - 4px));
+
+  --scroll-2: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 3) - var(--button-width) - 4px));
+
+  --scroll-3: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 4) - var(--button-width) - 4px));
+
+  --scroll-4: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 5) - var(--button-width) - 4px));
+
+  --scroll-5: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 6) - var(--button-width) - 4px));
+
+  --scroll-6: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) + 7) - var(--button-width) - 4px));
+
+  --scroll--1: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 0) - var(--button-width) - 4px));
+  --scroll--2: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 1) - var(--button-width) - 4px));
+  --scroll--3: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 2) - var(--button-width) - 4px));
+  --scroll--4: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 3) - var(--button-width) - 4px));
+  --scroll--5: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 4) - var(--button-width) - 4px));
+  --scroll--6: calc(-1 * ((var(--item-width) + 4px) * (var(--item-capacity) - 5) - var(--button-width) - 4px));
+}

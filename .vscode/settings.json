@@ -1,0 +1,11 @@
+// https://github.com/lokalise/i18n-ally/blob/main/examples/by-frameworks/react-i18next/.vscode/settings.json
+{
+  "i18n-ally.localesPaths": "public/locales",
+  "i18n-ally.enabledFrameworks": ["react-i18next"],
+  "i18n-ally.namespace": true,
+  "i18n-ally.displayLanguage": "ko",
+  "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.keysInUse": ["description.part2_whatever"]
+  // "i18n-ally.defaultNamespace": "translation"
+}

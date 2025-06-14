@@ -1,0 +1,14 @@
+@theme inline {
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+}
+
+:root {
+  --secondary: var(--color-green-100);
+  --secondary-foreground: var(--color-green-900);
+}
+
+.dark {
+  --secondary: var(--color-green-800);
+  --secondary-foreground: var(--color-green-50);
+}
